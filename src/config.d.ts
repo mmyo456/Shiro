@@ -39,7 +39,11 @@ declare global {
       text: string
       link: string
     }
-  }
+    icp1?: {
+      text: string
+      link: string
+    }
+}
 
   export interface Custom {
     css: string[]
