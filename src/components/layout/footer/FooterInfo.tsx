@@ -176,6 +176,7 @@ const FooterBottom = async () => {
   const { otherInfo } = footerConfig
   const currentYear = new Date().getFullYear().toString()
   const { date = currentYear, icp } = otherInfo || {}
+  const { date = currentYear, icp1 } = otherInfo || {}
 
   return (
     <div className="mt-12 space-y-3 text-center md:mt-6 md:text-left">
